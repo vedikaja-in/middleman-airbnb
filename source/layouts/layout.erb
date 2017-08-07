@@ -12,6 +12,19 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+
+    <!-- Here navbar is taken from the partial -->
+
+    <%= partial 'layouts/navbar' %>
+
+    <!-- Here is you main content -->
+
     <%= yield %>
+
+    <!-- Here is your footer -->
+    <%= partial 'layouts/footer' %>
+
   </body>
 </html>
+
+
