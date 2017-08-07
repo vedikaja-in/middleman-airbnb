@@ -1,7 +1,7 @@
-<ul class="list-inline text-center">
+<ul class="list-inline text-center padded">
   <% ["vedikaja-in", "mwahrlich"].each do |gh_username| %>
     <li>
-      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "avatar avatar-large" %>
       <h3><%= gh_username.capitalize %></h3>
     </li>
   <% end %>
